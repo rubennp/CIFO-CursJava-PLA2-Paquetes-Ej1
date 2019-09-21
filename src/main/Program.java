@@ -1,6 +1,7 @@
 package main;
 
 import java.util.ArrayList;
+import clases.cifo.com.Empleado;
 
 /**
  * 
