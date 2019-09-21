@@ -14,20 +14,18 @@ public class Program {
 	 * @param args son los argumentos pasados.
 	 */
 	public static void main(String[] args) {
-		Empleado uno = new Empleado();
-		Empleado dos = new Empleado("Rubèn", "12345678X");
+		Empleado uno = new Empleado("Empleado1", "11111111A");
+		Empleado dos = new Empleado("Empleado2", "22222222B");
 		ArrayList<Empleado> empleados = new ArrayList<Empleado>();
 		
 		uno.setSueldo(1000.0);
-		dos.setSueldo(1001.0);
+		dos.setSueldo(2222.0);
 		
 		empleados.add(uno);
 		empleados.add(dos);
 		
-		Empleado tres = new Empleado();
-		tres.setNombre("Tercer empleado");
-		tres.setDNI("33333333C");
-		tres.setSueldo(3333.3);
+		Empleado tres = new Empleado("Empleado3", "33333333C");
+		tres.setSueldo(3333.0);
 		
 		empleados.add(tres);
 		
@@ -36,7 +34,7 @@ public class Program {
 			System.out.println("|Empleado " + (e+1) + " = ");
 			System.out.println("|- Nombre: " + empleado.getNombre());
 			System.out.println("|- DNI: " + empleado.getDNI());
-			System.out.println("|- Sueldo: " + empleado.getSueldo() + "(Neto : " + empleado.sueldoNeto() + ")\n");
+			System.out.println("|- Sueldo: " + empleado.getSueldo() + " (Neto : " + empleado.sueldoNeto() + ")\n");
 		}
 	}
 

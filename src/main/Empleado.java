@@ -65,15 +65,7 @@ public class Empleado {
 	public Double sueldoNeto() {
 		return sueldo*.85;
 	}
-	
-	/**
-	 * Constructor sin argumentos.
-	 */
-	public Empleado() {
-		this.nombre = "Sin nombre";
-		this.DNI = "00000000A";
-	}
-	
+		
 	/**
 	 * Constructor con nombre y DNI.
 	 * @param nombre es el nombre del empleado creado.
