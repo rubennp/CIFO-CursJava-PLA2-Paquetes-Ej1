@@ -2,7 +2,9 @@ package main;
 
 /**
  * 
- * Una clase para guardar los empleados de la empresa.
+ * Una clase para guardar los empleados de la empresa. 
+ * Constructor obligatorio con nombre y DNI.
+ * 
  * @author Rubèn Nieto
  *
  */

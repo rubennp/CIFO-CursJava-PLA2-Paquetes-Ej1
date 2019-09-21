@@ -4,6 +4,8 @@ import java.util.ArrayList;
 
 /**
  * 
+ * Programa para probar la clase Empleado
+ * 
  * @author Rubèn Nieto
  *
  */
@@ -19,13 +21,13 @@ public class Program {
 		ArrayList<Empleado> empleados = new ArrayList<Empleado>();
 		
 		uno.setSueldo(1000.0);
-		dos.setSueldo(2222.0);
+		dos.setSueldo(2000.0);
 		
 		empleados.add(uno);
 		empleados.add(dos);
 		
 		Empleado tres = new Empleado("Empleado3", "33333333C");
-		tres.setSueldo(3333.0);
+		tres.setSueldo(3000.0);
 		
 		empleados.add(tres);
 		
