@@ -2,7 +2,7 @@ package main;
 
 /**
  * 
- * Una clase para guardar empleados.
+ * Una clase para guardar los empleados de la empresa.
  * @author Rubèn Nieto
  *
  */
