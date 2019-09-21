@@ -29,7 +29,11 @@ public class Program {
 		Empleado tres = new Empleado("Empleado3", "33333333C");
 		tres.setSueldo(3000.0);
 		
+		Empleado cuatro = new Empleado("Empleado4", "444444444D");
+		cuatro.setSueldo(4000.0);
+		
 		empleados.add(tres);
+		empleados.add(cuatro);
 		
 		for (int e = 0; e < empleados.size(); e++) {
 			Empleado empleado = empleados.get(e);
