@@ -65,7 +65,15 @@ public class Empleado {
 	 * @return el sueldo neto (sueldo*.85) del empleado
 	 */
 	public Double sueldoNeto() {
-		return sueldo*.85;
+		return getIRPF();
+	}
+	
+	/**
+	 *
+	 * @return el sueldo neto (* .85 si el bruto es mayor de 3000 o * .75 si es menor)
+	 */
+	private Double getIRPF() {
+		return (this.sueldo < 3000) ? this.sueldo*.85 : this.sueldo*.75; 
 	}
 		
 	/**
